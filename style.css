@@ -1,0 +1,132 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #34495e;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 1rem 2rem;
+}
+
+section {
+  background-color: silver;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-top:0px;
+  padding: 30px;
+}
+
+ul {
+  padding-left: 1.5rem;
+  list-style-type: none;
+  display:flex;
+  gap: 1.5em;
+}
+a{
+  text-decoration: none;
+}
+#contact {
+  text-align: center;
+}
+#languages ul{
+  padding: 0;
+  margin: 0;
+  width: 300px;
+}
+#languages li{
+  background-color: #f0f0f0;
+  margin-left: 90px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+#languages li:hover {
+  background-color: #d4e1f5;
+}
+#education a{
+  border: 1px raised;
+  border-radius:10px;
+  padding:20px 5px;
+  background-color:#f0f0f0;
+  text-decoration: none;
+}
+#education a:hover{
+  background-color:#d4e1f5;
+}
+#projects ul{
+  list-style: none;
+  padding: 0;
+}
+#projects li{
+  background-color: #f5f5f5;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 6px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-top: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.7rem;
+  border: none;
+  background: #2c3e50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1a242f;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ddd;
+}
