@@ -34,10 +34,3 @@ A simple form that allows visitors to send me messages.
 [🔗 View Portfolio Website](https://golden-pithivier-73c64b.netlify.app/)  
 
 
-## 📁 File Structure
-portfolio/
-├── index.html # Main website content
-├── style.css # Website styling
-├── cv.pdf # Downloadable resume/CV
-└── README.md # Project documentation
-
